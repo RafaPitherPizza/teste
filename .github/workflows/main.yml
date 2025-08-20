@@ -1,0 +1,10 @@
+name: We are living till we grow older
+on: [push]
+jobs:
+  you-be-the-worker:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: da um log
+        run: echo "You be the worker"
+      - name: da outro log
+        run: echo "I'll be the soldier"
