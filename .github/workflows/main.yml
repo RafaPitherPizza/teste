@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Validar HTML
-        uses: svenkreiss/html5validator-action@v0.4.3
+        uses: Cyb3r-Jak3/html5validator-action
     
   deploy:
     runs-on: ubuntu-latest
